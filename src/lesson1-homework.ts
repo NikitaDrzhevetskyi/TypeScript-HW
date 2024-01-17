@@ -58,6 +58,7 @@ function excercise3() {
   for (let i = m; i >= n; i--) {
     reversedArr.push(i);
   }
+  // TODO: support case where n > m (reverse the order)
   // TODO: print result array to console
   console.log(reversedArr);
 }
